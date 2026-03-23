@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  
+    color: whitesmoke;
+    background-image: linear-gradient(to right, rgb(15, 15, 15) , rgb(17, 81, 19));
+    
+}
+
+.WelcomeCard {
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    /* background-color: rgb(28, 18, 18); */
+    max-width: 90vw;
+    min-height: 10vw;
+    font-family: 'IBM Plex Mono', monospace;
+    border: 2px solid transparent;
+  border-radius: 20px;
+  background:
+    linear-gradient(rgb(20, 20, 20), rgb(21, 125, 131)) padding-box,
+    linear-gradient(to right, rgb(15, 15, 15), rgb(15, 237, 22)) border-box;
+  }
+
+  .WelcomeCard img {
+    width: 75px;
+    height: 75px;
+    border-radius: 20%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+
+  
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+Footer {
+  margin-top: auto;
+  text-align: center;
+  color: #33ff66;
+}
+
+.TechStackCard {
+
+  margin-top: 50px;
+  margin-bottom: none;
+  border-style: groove;
+  border-radius: 90px;
+  max-width: 90vw;
+  min-height: 10vw;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background:
+    linear-gradient(rgb(20, 20, 20), rgb(21, 125, 131)) padding-box,
+    linear-gradient(to right, rgb(15, 15, 15), rgb(15, 237, 22)) border-box;
+}

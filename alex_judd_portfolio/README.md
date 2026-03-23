@@ -1,0 +1,1 @@
+This is a side project to improve my understanding of the JS library React
